@@ -13,6 +13,44 @@ Criar um notebook para apoio sobre o estudo de investimentos.
 - https://blog.nubank.com.br/tipos-de-investimentos/
 
 ## Engenharia de Prompts e "Cicatrizes"
+### Pergunta: "Como montar uma reserva de emergência com liquidez diária?"
+### Resposta:
+Para montar uma reserva de emergência, o foco principal deve ser a segurança e a liquidez diária, que é a capacidade de resgatar o dinheiro e tê-lo disponível na conta no mesmo dia ou, no máximo, no próximo dia útil.
+Com base nas fontes, aqui estão os passos e as melhores opções para estruturar sua reserva:
+#### 1. Onde Investir (Opções com Liquidez Diária)
+ A reserva de emergência deve ser mantida obrigatoriamente na renda fixa, onde há previsibilidade e baixo risco de perda do valor aplicado. As opções recomendadas são:
+- Tesouro Selic: Considerado o investimento mais seguro do mercado, pois você empresta dinheiro ao Governo Federal. Ele permite a retirada a qualquer momento e garante que você nunca terá menos do que investiu, pois rende todos os dias úteis.
+- CDBs de Liquidez Diária: São títulos emitidos por bancos onde você "empresta" dinheiro à instituição em troca de juros (geralmente 100% do CDI). É fundamental verificar se o CDB possui o termo "liquidez diária", pois existem versões onde o dinheiro só pode ser resgatado no vencimento.
+- Contas Digitais: Muitas contas de bancos digitais oferecem rendimento automático (geralmente o dobro da poupança) apenas por deixar o dinheiro parado lá, mantendo a facilidade de uso imediato para pagamentos ou saques.
+#### 2. O que evitar na Reserva de Emergência
+ Para esta finalidade específica, você deve evitar ativos que não ofereçam disponibilidade imediata ou que apresentem alta oscilação:
+- Renda Variável (Ações, FIIs, Cripto): O mercado pode cair no momento em que você precisar do dinheiro, forçando-o a vender com prejuízo.
+- Títulos de Longo Prazo: Investimentos como Tesouro IPCA+, LCs, LCI/LCA ou Debêntures costumam ter prazos de carência onde você não consegue tocar no dinheiro por meses ou anos.
+#### 3. Segurança e Cuidados Importantes
+- Proteção do FGC: Ao escolher CDBs ou Contas Digitais, você conta com a garantia do Fundo Garantidor de Créditos, que protege até R$ 250 mil por CPF e por instituição financeira caso o banco quebre.
+- Imposto de Renda e IOF: No Tesouro Selic e nos CDBs, há incidência de Imposto de Renda sobre o lucro, seguindo uma tabela regressiva (quanto mais tempo o dinheiro fica, menos imposto paga). Além disso, se resgatar antes de 30 dias, haverá cobrança de IOF sobre o rendimento.
+- Objetivo da Reserva: A reserva serve para "apagar incêndios" e imprevistos, evitando que você precise contrair dívidas ou resgatar investimentos de longo prazo antes da hora.
+#### Em resumo, a estratégia ideal para um iniciante é começar pelo Tesouro Selic ou por um CDB de liquidez diária de um banco em que você já tenha confiança, garantindo que o recurso esteja acessível no momento exato de uma necessidade.
+### Pergunta: "Qual a diferença entre títulos prefixados, pós-fixados e híbridos?"
+### Resposta:
+A principal diferença entre esses títulos reside na forma como a rentabilidade é calculada e na previsibilidade do retorno final no momento da aplicação. Essas são as três modalidades de remuneração da renda fixa.
+Abaixo, detalho as características de cada uma:
+#### 1. Títulos Prefixados
+Nesta modalidade, a taxa de juros é definida no momento da compra e não se altera até o vencimento do título.
+- Previsibilidade: É total, pois o investidor sabe exatamente o valor exato que receberá ao final do prazo antes mesmo de investir.
+- Vantagem: É uma opção vantajosa em cenários de queda de juros, pois garante uma rentabilidade fixa maior do que as taxas que o mercado oferecerá no futuro.
+- Exemplos: Tesouro Prefixado e CDBs prefixados.
+#### 2. Títulos Pós-fixados
+O rendimento destes títulos está atrelado a um indicador econômico (indexador), o que faz com que a rentabilidade varie ao longo do tempo conforme esse índice oscila.
+- Previsibilidade: O investidor conhece o índice de referência (como a taxa Selic ou o CDI), mas não sabe o valor final em reais, pois o indicador pode subir ou descer durante o período da aplicação.
+- Indicadores comuns: Taxa Selic, CDI ou inflação.
+- Exemplos: Tesouro Selic e CDBs que rendem 100% do CDI.
+#### 3. Títulos Híbridos
+Como o nome sugere, esses títulos funcionam como uma mistura das duas modalidades anteriores.
+- Composição: A remuneração é composta por uma taxa fixa (prefixada) mais a variação de um indicador econômico (geralmente a inflação/IPCA).
+- Vantagem: Garante que o dinheiro sempre renda acima da inflação, mantendo o poder de compra do investidor, além de oferecer um ganho real fixo.
+- Exemplo: Tesouro IPCA+, que pode pagar, por exemplo, IPCA + 6% ao ano.
+#### Em resumo, enquanto no prefixado você "trava" uma taxa, no pós-fixado você segue o mercado e no híbrido você garante a proteção contra a inflação somada a um juro fixo.
 
 ## Miniguia de Estudo
 ### Resumo estruturado do assunto:
@@ -66,3 +104,6 @@ Nesta modalidade, o retorno é imprevisível e depende das oscilações do merca
 - Fundos de Investimento: Carteiras geridas por profissionais que reúnem o dinheiro de vários investidores para aplicar em diversos ativos, podendo ser de renda fixa, ações ou multimercados.
 - Previdência Privada: Focada no longo prazo e na aposentadoria. Divide-se principalmente em PGBL (indicado para quem faz a declaração completa do IR) e VGBL (para quem faz a simplificada).
 ### Conjunto de prompts reutilizáveis que possam apoiar futuras revisões sobre o tema:
+- Quais são as opções isentas de Imposto de Renda?
+- Qual é a diferença de rentabilidade entre CDB e LCI?
+- Qual a diferença entre fundos imobiliários e ações na prática?
